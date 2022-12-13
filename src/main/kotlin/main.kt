@@ -8,6 +8,10 @@ fun main(args: Array<String>) {
     val cook1 = Cook("Иванов Иван Евгеньевич")
     println(cook.openInfo())
 
+    val cookEd = CookEd("Иван Р.О.", 3, "FdF")
+    println(cookEd)
+
+
     val i: Waiter = Waiter()
     i.name = "R"
     println(i.name)
